@@ -1,0 +1,150 @@
+* {
+    text-align: center;
+}
+body {
+    background: black;
+}
+
+.banner{
+    background-image: url(./assets/images/banner.png), linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    border-bottom: 1px solid aqua;  
+}
+.banner-content h1 {
+    font-size: 40px;
+    color: aqua;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    
+}
+.banner-content p {
+    font-size: 25px;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.banner-content button {
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aqua;
+    border-color: aqua;
+    margin:30px 0;
+    background: none;
+    padding: 20px 50px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+#transform-world p {
+    text-align: left;
+    background-image: url(./assets/images/woman-code.png) fixed;
+}
+
+hr {
+    border: 1px solid aqua;
+    
+    
+}
+main {
+    margin: 80px 0;
+}
+
+#course-content h2 {
+    font-size: 35px;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 1%;    
+}
+#course-content p {
+    font-size: 20px;
+    color: white;
+    width: 70%;
+    margin-left: 20%;
+    margin-bottom: 26px;
+}
+
+.modules-list {
+    color: white;
+    margin-bottom: 80px;
+}
+.modules-list span {
+    color: aqua;
+}
+
+.module {
+    font-size: 18px;
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: 1px solid aqua;
+    padding: 15px 50px;
+    border-radius:25px;
+    background: #353535;
+    box-shadow: inset 2px 4px #232323;
+}
+.module:hover {
+    cursor: pointer;
+}
+
+#transform-world {
+    background-image: url(./assets/images/woman-code.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+
+}
+#transform-world p {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 2px aqua;
+    color: white;
+    margin-top: 0;
+    width: 220px;
+    margin-top: 210px;
+    margin-left: 200px;
+
+}
+#professional-challenges h2 {
+    font-size: 28px;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 40px;
+
+}
+#professional-challenges p {
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    margin-left: 22%;
+    padding-top: 20px;
+}
+.dio-logo {
+    padding-top: 30px;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid aqua;
+}
+footer p{
+    font-size: 20px;
+    color: white;
+}
+footer a {
+    color: blue;
+}
