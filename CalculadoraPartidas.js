@@ -1,33 +1,30 @@
+let partida = calcularPartida(70, 2); 
 
-let partida = calcularPartida(81, 2)
+function calcularPartida(vitoria, derrota){
+    let subtrair = vitoria - derrota;
+    return subtrair;
+}
 
-function calcularPartida(vitoria, derrota) {
 
-    let resultado = vitoria - derrota;
-
-    if(resultado < 10){
-        console.log("Você recebeu medalha de Ferro" );
-    } 
-    else if(resultado >= 11 && resultado <= 20){
-        console.log("Você recebeu medalha de Bronze");
-    }
-    else if(resultado >= 21 && resultado <= 50){
-        console.log("Você recebeu medalha de Prata");
-    }
-    else if(resultado >= 51 && resultado <= 80){
-        console.log("Você recebeu medalha de Ouro");
-    }
-    else if(resultado >= 81 && resultado <= 90){
-        console.log("Você recebeu medalha de Diamante");
-    }
-    else if(resultado >= 91 && resultado <= 100){
-        console.log("Você recebeu medalha de Lendário");
-    } else{
-        console.log("Você recebeu medalha de Imortal");
-    }
-
+if(partida < 10){
+    console.log( "O Herói tem o saldo de " + partida + " pontos. Você está no nível de Ferro");
+}
+else if(partida >= 11 && partida <= 20){
+    console.log( "O Herói tem o saldo de " + partida + " pontos. Você está no nível de Bronze");
+}
+else if(partida >= 21 && partida <= 50){
+    console.log( "O Herói tem o saldo de " + partida + " pontos. Você está no nível de Prata");
+}
+else if(partida >= 51 && partida <= 80){
+    console.log( "O Herói tem o saldo de " + partida + " pontos. Você está no nível de Ouro");
+}
+else if(partida >= 81 && partida <= 90){
+    console.log( "O Herói tem o saldo de " + partida + " pontos. Você está no nível de Diamante");
+}
+else if(partida >= 91 && partida <= 100){
+    console.log( "O Herói tem o saldo de " + partida + " pontos. Você está no nível de Lendário");
+} else {
+    console.log( "O Herói tem o saldo de " + partida + " pontos. Você está no nível de Imortal");
     
-    return resultado;
-
-    console.log(resultado);
+}
 }
