@@ -1,0 +1,28 @@
+package udemy.curso.javaCompleto;
+
+import java.util.Scanner;
+
+public class DiferencaEntreNumeros {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Informe o número A: ");
+		int numeroA = scan.nextInt();
+		System.out.println("Informe o número B: ");
+		int numeroB = scan.nextInt();
+		System.out.println("Informe o número C: ");
+		int numeroC = scan.nextInt();
+		System.out.println("Informe o número D: ");
+		int numeroD = scan.nextInt();
+		
+		int diferenca = (numeroA * numeroB) - (numeroC * numeroD);
+		
+		System.out.println("A diferença dos números é: " + diferenca);
+		
+		
+		scan.close();
+	}
+
+}
