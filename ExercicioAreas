@@ -1,0 +1,35 @@
+package udemy.curso.javaCompleto;
+
+import java.util.Scanner;
+
+public class AreaAritmetica {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Informe Valor A: ");
+		double valorA = scan.nextDouble();
+		
+		System.out.println("Informe Valor B: ");
+		double valorB = scan.nextDouble();
+		
+		System.out.println("Informe Valor C: ");
+		double valorC = scan.nextDouble();
+		
+		double areaTriangulo = (valorA * valorC) / 2;
+		double areaCirculo = 3.14159 * Math.pow(valorC, 2);
+		double areaTrapezio = (valorA + valorB) * valorC / 2;
+		double areaQuadrado = Math.pow(valorB, 2);
+		double areaRetangulo = valorA * valorB;
+		
+		System.out.printf("Area Triângulo: %.3f %n", areaTriangulo);
+		System.out.printf("Area Circulo: %.3f %n", areaCirculo);
+		System.out.printf("Area Trapezio: %.3f %n", areaTrapezio);
+		System.out.printf("Area Quadrado: %.3f %n", areaQuadrado);
+		System.out.printf("Area Retangulo: %.3f %n", areaRetangulo);
+		
+		scan.close();
+	}
+
+}
